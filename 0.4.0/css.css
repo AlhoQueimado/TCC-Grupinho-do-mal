@@ -1,0 +1,175 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin: auto;
+	padding: 1em;
+}
+td{
+	margin: auto;
+	padding: 1em;
+}
+
+.corpo{
+
+	font-family: Lato;
+	min-height: 100vh;
+
+}
+h2{
+	font-size: 18px;
+	font-weight: bold;
+}
+table {
+  width: 20%;
+
+}
+.menu{
+	font-family: Lato;
+	background: #262B2F;
+	padding: 1.5%;
+	text-align: right;
+	word-spacing: 1vw;
+
+}
+.menu a{
+	color: #F0F8FF;
+}
+.menu a:hover{
+	color: #6ed3cf;
+}
+.bemvindo{
+	color: #F0F8FF;
+	word-spacing: normal;
+	text-align: left;
+	float: left;
+
+}
+.rodape{
+	font-family: Lato;
+	background: #262B2F;
+	padding: 1.5%;
+	text-align: left;
+
+	color: #F7F9FE;
+	font-size: 14px;
+}
+.rodape a{
+	color: #F7F9FE;
+}
+.rodape a:hover{
+	color: #6ed3cf;
+}
+th {
+  height: 50px;
+}
+th, td {
+  border-bottom: 1px solid #ddd;
+}
+.lista, form{
+
+	text-align: center;
+	margin: auto;
+	padding: 3%;
+	padding-bottom:10vh;
+}
+@font-face {
+  font-family: Lato;
+  src: url(../Fontes/lato/Lato-Medium.ttf);
+
+}
+@font-face {
+  font-family: Lato;
+  src: url(../Fontes/lato/Lato-Bold.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: Lato;
+  src: url(../Fontes/lato/Lato-light.ttf);
+  font-weight: lighter;
+}
+@font-face {
+  font-family: Lato-Semibold;
+  src: url(../Fontes/lato/Lato-Semibold.ttf);
+
+}
+a{
+ text-decoration: none;
+
+}
+.timea{
+	padding: 10%;
+	float: left;
+	text-align: left;
+}
+.timeb{
+	padding: 10%;
+	float: right;
+	text-align: right;
+}
+
+.timea select, .timeb select{
+	padding: 4%;
+	width: 60%;
+}
+.jogo input[type="number"]{
+	width: 15%;
+	text-align: center;
+}
+.jogo input[type="submit"]{
+	position: relative;
+	top: 20vh;
+	left: 0;
+	right: 0;
+}
+.jogo h2, .jogo input[type="number"]{
+	font-size: 28px;
+}
+.jogo form{
+
+	margin: auto;
+
+}
