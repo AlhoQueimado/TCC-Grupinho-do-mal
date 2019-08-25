@@ -26,7 +26,7 @@
   		echo "<tr>";
   	};
   		echo "<td >";
-  		echo "<a href='?pagina=esporte&id=$linha[id_esporte]'>$linha[nome_jogador]<br><br>";
+  		echo "<a href='?pagina=jogador&id=$linha[id_jogador]'>$linha[nome_jogador]<br><br>";
   		echo " <img class='imagem' src='$linha[imagem_jogador]' width='75' height='75'/> </a>";
   		echo "</td>";
   		$i+=1;
