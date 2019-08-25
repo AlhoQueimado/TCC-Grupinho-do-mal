@@ -1,0 +1,415 @@
+light/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	overflow-x: hidden;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin: auto;
+	padding: 1em;
+}
+td{
+	margin: auto;
+	padding: 1em;
+}
+
+.corpo{
+	padding-top: 10vh;
+	font-family: Lato;
+	min-height: 100vh;
+
+}
+h2{
+	font-size: 18px;
+	font-weight: bold;
+}
+table {
+  width: 20%;
+
+}
+
+.bemvindo{
+	color: #F0F8FF;
+	word-spacing: normal;
+	text-align: left;
+	float: left;
+	margin-left: 2.2vw;
+}
+.bemvindo img{
+	position: absolute;
+	top: 2vh;
+	left: 1vw;
+	border-radius: 50px;
+
+}
+.rodape{
+	position: relative;
+	top: 0;
+	font-family: Lato;
+	background: #262B2F;
+	padding: 1.5%;
+	text-align: left;
+
+	color: #F7F9FE;
+	font-size: 14px;
+	clear: both;
+}
+.rodape a{
+	color: #F7F9FE;
+}
+.rodape a:hover{
+	color: #FF7F42;
+}
+th {
+  height: 50px;
+}
+
+.lista, form{
+
+	text-align: center;
+	margin: auto;
+	padding: 3%;
+	padding-bottom:10vh;
+}
+.lista td{
+	padding: 3vw;
+}
+.lista a{
+
+}
+a{
+ text-decoration: none;
+
+}
+.timea{
+	padding: 10%;
+	float: left;
+	text-align: left;
+}
+.timeb{
+	padding: 10%;
+	float: right;
+	text-align: right;
+}
+
+.timea select, .timeb select{
+	padding: 4%;
+	width: 60%;
+}
+.jogo input[type="number"]{
+	width: 15%;
+	text-align: center;
+}
+.jogo input[type="submit"]{
+
+	padding: 10%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	background: #FF7F42;
+	color: #F7F9FE;
+	border: 0;
+
+}
+.jogo h2, .jogo input[type="number"]{
+	font-size: 28px;
+}
+.jogo form{
+
+	margin: auto;
+
+}
+.jogador h2{
+	padding: 2%;
+	padding-left: 20vw;
+	font-size: 32px;
+	text-align: left;
+}
+.jogador{
+	width: 50%;
+}
+.lista{
+
+	font-size: 16px;
+}
+.lista img{
+	border: 3px solid #D7D7D7;
+}
+.jogador td{
+	padding: 1em;
+}
+a{
+	color: purple;
+}
+.formulario input{
+	padding: 1%;
+	padding-left: 6%;
+	padding-right: 6%;
+	text-align: center;
+
+}
+.formulario input[type="submit"]{
+
+		background: #FF7F42;
+		color: #F7F9FE;
+		border: 0;
+}
+.formulario select{
+	padding: 1%;
+}
+.chart-container {
+  margin: 0 auto;
+}
+.pie-chart-container{
+	height: 30vh;
+  width: 30vw;
+	margin-left: 15vw;
+
+}
+.pie-chart-container-grande{
+	height: 40vh;
+  width: 40vw;
+	margin: 0;
+}
+.bar-chart-container-grande{
+	height: 40vh;
+  width: 40vw;
+	margin: 0;
+}
+.line-chart-container-grande{
+	height: 40vh;
+  width: 40vw;
+		margin: 0;
+
+}
+.grafico{
+
+	position: relative;
+	top: -38.6vh;
+	left: 50vw;
+	margin: 0
+}
+.pie-chart-container-grandao{
+	height: 60vh;
+  width: 60vw;
+	margin: 0;
+}
+.graficoEsporte{
+
+	position: absolute;
+	top: 27vh;
+	left: 45vw;
+	margin: 0
+}
+.hometopo{
+
+	margin: 0 auto;
+	text-align: center;
+	height: 100vh;
+	background: linear-gradient(
+                     rgba(0,0,0, .5),
+                     rgba(0,0,0, .5)),
+                     url( "fundo.jpg");
+);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.hometopo h1{
+
+	padding-top: 20vh;
+	font-family: Lato;
+	font-weight: lighter;
+	color: white;
+	font-size: 64px;
+}
+.hometopo p{
+
+
+	font-family: Lato;
+	font-weight: lighter;
+	color: white;
+	font-size: 18px;
+}
+#botaoInicio {
+	border-radius: 18px;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+	padding-left:  3vw;
+		padding-right:  3vw;
+	background: none;
+	font-family: Lato;
+	font-weight: lighter;
+	color: white;
+	font-size: 18px;
+	text-decoration: none;
+	transition: 0.5s;
+	border: 1px solid white;
+}
+#botaoInicio:hover{
+
+	color:  #EF9949;
+	border: 1px solid  #EF9949;
+}
+#botaoMenu {
+	float: right;
+	position: fixed;
+	top: 0;
+	right: 0;
+	padding-top: 1.4%;
+	padding-right: .7%;
+	z-index: 19123123121299;
+
+}
+
+.menuInicio {
+	z-index: 312;
+	position: fixed;
+	display: flex;
+	text-align: center;
+	background: #262B2F;
+	padding: 2%;
+	margin: 0 auto;
+
+	left: 0;
+	right: 0;
+
+
+	display: none;
+
+}
+.menuInicio a{
+
+	text-align: center;
+	padding-left:  3.5vw;
+	padding-right: 3.5vw;
+	letter-spacing: 4px;
+	font-family: aliseo;
+		font-weight: lighter;
+	color: white;
+	font-size: 16px;
+	transition: 0.2s;
+}
+
+#botaoHome {
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding-top: 1.4%;
+	padding-left: .7%;
+	display: none;
+	z-index: 19123123121299;
+	padding-right: 0;
+}
+.menuInicio a:nth-child(n+2){
+		border-left: 1.5px solid white;
+}
+
+.menuInicio a:hover{
+	color: #EF9949	;
+}
+.corpoInicio{
+
+}
+.primeiroItemInicio{
+	margin-left: 25%;
+	width: 40%;
+	display: flex;
+	padding: 3%;
+
+}
+.primeiroItemInicio h1{
+	font-size: 42px;
+position: relative;
+right: 2.5vw;
+	font-family:  Lato;
+
+}
+.primeiroItemInicio p{
+	font-size: 16;
+	font-family: Lato;
+	font-weight: lighter;
+	display: table-cell;
+	    vertical-align: middle;
+	width: 80%;
+	position: relative;
+	right: 2.5vw;
+}
+.primeiroItemInicio img{
+	margin: 0 auto;
+	z-index: -12;
+	width: 21vw;
+	text-align: center;
+	padding: 0;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.primeiroItemInicioBox{
+	padding: 6%;
+	padding-left: 12%;
+	margin: 0 auto;
+	width:70%;
+	background: rgba(38,43,47,.9);
+	height: 80%;
+	position: relative;
+	flex: 1;
+	color: white;
+	right: -3vw;
+
+	margin-top: 25%;
+	margin-bottom: 15%;
+
+}
+.primeiroItemInicio a{
+	font-size: 16px;
+position: relative;
+right: 2.5vw;
+	font-family:  Lato;
+
+	color: #EF9949
+}
+#seta{
+	margin: 0;
+	width:18px;
+}
