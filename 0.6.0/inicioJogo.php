@@ -23,7 +23,7 @@
 
 <table border="1">
 <?php if ($_POST): ?>
-  <form class="formularioJogadores" action=" <?php echo "?pagina=jogo&id_esporte=$_GET[id_esporte]&cod_jogo=$_GET[cod_jogo]" ?> " method="post">
+  <form class="formularioJogadores" action=" <?php echo "?pagina=jogo&id_esporte=$_GET[id_esporte]" ?> " method="post">
 <?php endif; ?>
 <?php if (!$_POST): ?>
   <form class="formularioJogadores" action="#" method="post">
