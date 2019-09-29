@@ -29,7 +29,7 @@
 		echo " <img class='imagem' src='$linha[imagem_esporte]' width='200' height='200'/></a><br><br>";
 
 		if ($_SESSION[admin]) {
-				echo "<h1><a href='?pagina=criarPartida&id_esporte=$linha[id_esporte]'>Jogar</h1></a>";
+				echo "<h1><a href='?pagina=inicioJogo&id_esporte=$linha[id_esporte]'>Jogar</h1></a>";
 		};
 
 		echo "";
