@@ -22,7 +22,7 @@ function numeroAleatorio()
     $numeroAleatorio = numeroAleatorio();
     $sql = "INSERT INTO jogo (cod_jogo, id_esporte) VALUES ('$numeroAleatorio', '$_GET[id_esporte]')";
     if (mysqli_query($conexao, $sql)) {
-      header("location: ./?pagina=iniciojogo&cod_jogo=$numeroAleatorio&id_esporte=$_GET[id_esporte]");
+      header("location: ./?pagina=iniciojogo&id_esporte=$_GET[id_esporte]");
       die();
     };
   }
