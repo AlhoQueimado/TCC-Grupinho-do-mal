@@ -1,0 +1,613 @@
+light/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	overflow-x: hidden;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin: auto;
+	padding: 1em;
+}
+td{
+	margin: auto;
+	padding: 1em;
+}
+label{
+	cursor: pointer;
+}
+.corpo{
+	padding-top: 10vh;
+	font-family: Lato;
+	min-height: 100vh;
+
+}
+h2{
+	font-size: 18px;
+	font-weight: bold;
+}
+table {
+  width: 20%;
+
+}
+
+.bemvindo{
+	color: #F0F8FF;
+	word-spacing: normal;
+	text-align: left;
+	float: left;
+	margin-left: 2.2vw;
+}
+.bemvindo img{
+	position: absolute;
+	top: 2vh;
+	left: 1vw;
+	border-radius: 50px;
+
+}
+.rodape{
+	position: relative;
+	top: 0;
+	font-family: Lato;
+	background: #25272d;
+	padding: 1.5%;
+	text-align: left;
+
+	color: #F7F9FE;
+	font-size: 14px;
+	clear: both;
+}
+.rodape a{
+	color: #F7F9FE;
+}
+.rodape a:hover{
+	color: #FF7F42;
+}
+th {
+  height: 50px;
+}
+
+.lista, form{
+
+	text-align: center;
+	margin: auto;
+	padding: 3%;
+	padding-bottom:10vh;
+}
+.lista td{
+	padding: 3vw;
+}
+.lista a{
+
+}
+a{
+ text-decoration: none;
+
+}
+.timea{
+	padding: 10%;
+	float: left;
+	text-align: left;
+}
+.timeb{
+	padding: 10%;
+	float: right;
+	text-align: right;
+}
+
+.timea select, .timeb select{
+	padding: 4%;
+	width: 60%;
+}
+.jogo input[type="number"]{
+	width: 15%;
+	text-align: center;
+}
+.jogo input[type="submit"]{
+
+	padding: 10%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	background: #FF7F42;
+	color: #F7F9FE;
+	border: 0;
+
+}
+.jogo h2, .jogo input[type="number"]{
+	font-size: 28px;
+}
+.jogo form{
+
+	margin: auto;
+
+}
+
+.lista{
+
+	font-size: 16px;
+}
+.lista img{
+	border: 3px solid #D7D7D7;
+
+	object-fit: cover;
+}
+.lista label:checked {
+	border: 34px solid red;
+}
+.jogador td{
+	padding: 1em;
+}
+a{
+	color: purple;
+}
+.formulario input{
+	padding: 1%;
+	padding-left: 6%;
+	padding-right: 6%;
+	text-align: center;
+
+}
+.formulario input[type="submit"]{
+
+		background: #FF7F42;
+		color: #F7F9FE;
+		border: 0;
+}
+.formulario select{
+	padding: 1%;
+}
+
+.hometopo{
+
+	margin: 0 auto;
+	text-align: center;
+	height: 100vh;
+	background: linear-gradient(
+                     rgba(0,0,0, .5),
+                     rgba(0,0,0, .5)),
+                     url( "fundo.jpg");
+);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.hometopo h1{
+
+	padding-top: 20vh;
+	font-family: Lato;
+	font-weight: lighter;
+	color: white;
+	font-size: 64px;
+}
+.hometopo p{
+
+
+	font-family: Lato;
+	font-weight: lighter;
+	color: white;
+	font-size: 18px;
+}
+#botaoInicio {
+	border-radius: 18px;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+	padding-left:  3vw;
+		padding-right:  3vw;
+	background: none;
+	font-family: Lato;
+	font-weight: lighter;
+	color: white;
+	font-size: 18px;
+	text-decoration: none;
+	transition: 0.5s;
+	border: 1px solid white;
+}
+#botaoInicio:hover{
+
+	color:  #EF9949;
+	border: 1px solid  #EF9949;
+}
+#botaoMenu {
+	float: right;
+	position: fixed;
+	top: 0;
+	right: 0;
+	padding-top: 1.4%;
+	padding-right: .7%;
+	z-index: 19123123121299;
+
+}
+
+.menuInicio {
+
+	z-index: 312;
+	position: fixed;
+	display: flex;
+	text-align: center;
+	background: #25272d;
+	padding: 2%;
+	margin: 0 auto;
+
+	left: 0;
+	right: 0;
+
+
+	display: none;
+
+}
+.menuInicio a{
+
+	text-align: center;
+	padding-left:  3.5vw;
+	padding-right: 3.5vw;
+	letter-spacing: 4px;
+	font-family: aliseo;
+		font-weight: lighter;
+	color: white;
+	font-size: 16px;
+	transition: 0.2s;
+}
+
+#botaoHome {
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding-top: 1.4%;
+	padding-left: .7%;
+	display: none;
+	z-index: 19123123121299;
+	padding-right: 0;
+}
+.menuInicio a:nth-child(n+2){
+		border-left: 1.5px solid white;
+}
+
+.menuInicio a:hover{
+	color: #EF9949	;
+}
+.corpoInicio{
+
+}
+.primeiroItemInicio{
+	margin-left: 25%;
+	width: 40%;
+	display: flex;
+	padding: 3%;
+
+}
+.primeiroItemInicio h1{
+	font-size: 42px;
+position: relative;
+right: 2.5vw;
+	font-family:  Lato;
+
+}
+.primeiroItemInicio p{
+	font-size: 16;
+	font-family: Lato;
+	font-weight: lighter;
+	display: table-cell;
+	    vertical-align: middle;
+	width: 80%;
+	position: relative;
+	right: 2.5vw;
+}
+.primeiroItemInicio img{
+	margin: 0 auto;
+	z-index: -12;
+	width: 21vw;
+	text-align: center;
+	padding: 0;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.primeiroItemInicioBox{
+	padding: 6%;
+	padding-left: 12%;
+	margin: 0 auto;
+	width:70%;
+	background: rgba(38,43,47,.9);
+	height: 80%;
+	position: relative;
+	flex: 1;
+	color: white;
+	right: -3vw;
+
+	margin-top: 25%;
+	margin-bottom: 15%;
+
+}
+.primeiroItemInicio a{
+	font-size: 16px;
+position: relative;
+right: 2.5vw;
+	font-family:  Lato;
+
+	color: #EF9949
+}
+#seta{
+	margin: 0;
+	width:18px;
+}
+
+
+
+
+.formularioLogin{
+	display: none; /* Hidden by default */
+ position: fixed; /* Stay in place */
+ z-index: 121312321; /* Sit on top */
+ left: 0;
+ top: 0;
+ width: 100%; /* Full width */
+ height: 120%; /* Full height */
+ overflow: auto; /* Enable scroll if needed */
+ background-color: rgb(0,0,0); /* Fallback color */
+ background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+ padding-top: 60px;
+ font-family: Lato;
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: 15vh auto; /* 15% from the top and centered */
+  border: 1px solid #888;
+  width: 20%; /* Could be more or less, depending on screen size */
+}
+.formularioLogin input{
+	margin: 0;
+	padding:2%;
+	width: 56%;
+}
+.formularioLogin button{
+	width: 45%;
+	padding: 3%;
+	background-color: #EF8E46;
+	color: white;
+	border: none;
+	font-family: Lato;
+	border-radius: 12px;
+}
+.formulario input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Close button on hover */
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.perfilBox{
+
+	margin: 0 auto;
+	margin-top: 5vh;
+	width: 70%;
+	height: 80vw;
+
+	background: #967a6d	;
+	margin-bottom: 5vh;
+
+}
+.perfilTopo{
+	position: relative;
+	top: 0;
+	width: 100%;
+	background: #EF9946;
+	height: 12vw;
+	float: left;
+}
+.perfilTopo h1{
+	width: 17.5%;
+	height: 30%;
+	position: relative;
+	left: 30%;
+	top: 24%;
+	font-family: lato;
+	font-weight: bold;
+	font-size: 48px;
+	border-bottom: 2px solid #d68437;
+}
+.perfilTopo h2{
+	width: 14%;
+	height: 32%;
+	position: relative;
+	left: 30%;
+	top: 28%;
+	font-family: lato;
+
+	font-size: 18px;
+
+}
+.perfilImagemBox{
+
+	position: relative;
+	top: 0;
+	margin-left: 4%;
+	height: 80%;
+	max-width: 14vw+12px;
+	background: #2f2b26;
+	float: left;
+	border-radius: 0 0 150px 150px;
+box-shadow: 2px 2px 5px #404040;
+}
+.perfilImagem{
+
+}
+.perfilImagem img{
+	position: relative;
+	top: -8.5vw;
+	border-radius: 50%;
+	border: 13px solid #2f2b26;
+	width: 15vw;
+	height: 15vw;
+	box-shadow: 1px 1px 5px #2f2b26;
+
+}
+
+.perfilCorpo{
+
+
+}
+.perfilMenu{
+	position: relative;
+	top: -5vw;
+	max-width: 70%;
+
+	color: white;
+	margin-left: 2vw;
+	word-wrap: break-word;
+
+}
+.perfilMenu table{
+	line-height: 50%;
+}
+.perfilMenu td{
+	padding: 10px;
+	margin: 0;
+	font-size: 12px;
+}
+.perfilMenu th{
+	margin: 0;
+	padding: 0;
+	height: auto;
+	font-size: 12px;
+}
+
+.perfilMenu li:first-child{
+	font-size: 20px;
+	padding-bottom: 6px;
+	border-bottom: 2px solid #F4AF99;
+}
+.perfilMenu li:not(:first-child){
+	padding-top: 8px;
+	font-size: 14px;
+	margin-left: 1vw;
+}
+
+.perfilMenu a{
+	color: white;
+	transition: 0.4s;
+}
+.perfilMenu a:hover{
+	color: #F4AF99;
+}
+.perfilDireitaBox {
+
+	width: 71.8%;
+	margin: 0 auto;
+	float: right;
+
+}
+
+#jogar a{
+	text-align: center;
+	font-size: 36px;
+	color: #F4AF99;
+	padding: 7%;
+	border-radius: 50px;
+
+}
+.perfilDireitaBox h1{
+	color: White;
+	font-size: 36px;
+	margin-top: 4.5%;
+	margin-left: 4.5%;
+}
+.perfilHistorico li{
+	margin: 0 auto;
+	padding: 6%;
+	background: white;
+	width: 70%;
+	margin-top: 8%;
+	background: #2f2b26;
+	border-radius: 12px;
+	color: white;
+	font-size: 24px;
+	box-shadow: 2px 2px 5px #2f2b26;
+}
+.perfilHistorico li:first-child{
+	margin-top: 3%;
+}
+#lose{
+	border-right: 40px solid #FF6961;
+}
+#win{
+	border-right: 40px solid #779ECB;
+}
+.placar{
+	float: right;
+}
+.graficosEsportes{
+
+	margin: 0 auto;
+
+
+	width: 40%;
+}
+
+
+.checkboxJogador label:checked{
+	padding: 198237px;
+ cursor:pointer;
+}
