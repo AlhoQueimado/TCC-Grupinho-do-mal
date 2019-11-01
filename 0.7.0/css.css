@@ -1,0 +1,892 @@
+light/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	overflow-x: hidden;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin: auto;
+	padding: 1em;
+}
+td{
+	margin: auto;
+	padding: 1em;
+}
+label{
+	cursor: pointer;
+}
+.corpo{
+	padding-top: 3vh;
+	font-family: Lato;
+	min-height: 100vh;
+
+}
+h2{
+	font-size: 18px;
+	font-weight: bold;
+}
+table {
+  width: 20%;
+
+}
+
+.bemvindo{
+	color: #F0F8FF;
+	word-spacing: normal;
+	text-align: left;
+	float: left;
+	margin-left: 2.2vw;
+}
+.bemvindo img{
+	position: absolute;
+	top: 2vh;
+	left: 1vw;
+	border-radius: 50px;
+
+}
+.rodape{
+	position: relative;
+	top: 0;
+	font-family: Lato;
+	background: #25272d;
+	padding: 1.5%;
+	text-align: left;
+
+	color: #F7F9FE;
+	font-size: 14px;
+	clear: both;
+}
+.rodape a{
+	color: #F7F9FE;
+}
+.rodape a:hover{
+	color: #FF7F42;
+}
+th {
+  height: 50px;
+}
+
+.lista, form{
+
+	text-align: center;
+	margin: auto;
+	padding: 3%;
+	padding-bottom:10vh;
+}
+.lista td{
+	padding: 3vw;
+
+}
+.headerListaJogadores{
+	text-align: center;
+	margin: 0 auto;
+	width: 75vw;
+	display: grid;
+	grid-template-columns: 8.5vw 8.5vw 8.5vw 8.5vw 8.5vw 8.5vw ;
+	//border: 1px solid red;
+	justify-content: center;
+	align-content: center;
+	grid-gap: 2vw 2.5vw;
+	border-radius: 12px 12px 0px 0px;
+	background: #25272D;
+	padding-top: 2.5vh;
+		padding-bottom: 2.5vh;
+	color: white;
+}
+.headerListaJogadores a{
+	color: white;
+
+}
+.selectTurma{
+		border-bottom: 10px;
+}
+.containerListaJogadores{
+	margin: 0 auto;
+	width: 75vw;
+  display: grid;
+  grid-template-columns: 8.5vw 8.5vw 8.5vw 8.5vw 8.5vw 8.5vw ;
+	//border: 1px solid red;
+	justify-content: center;
+	align-content: center;
+	grid-gap: 2.5vw 2.5vw;
+	margin-bottom: 17vh;
+	background: #c9c9c9;
+	padding-bottom:  5vw;
+	padding-top:  5vw;
+	border-radius: 0px 0px 12px 12px ;
+}
+
+.containerJogador{
+	background: white;
+	padding-top: 1.2vw;
+	color: black;
+  font-size: 16px;
+  text-align: center;
+
+	box-shadow: 1px 1px 3px grey;
+	padding-bottom: 1.2vw;
+	border-radius: 6px;
+	border-bottom: 6px solid white;
+	transition: .2s;
+}
+.containerJogador img{
+	width: 4.5vw;
+	height: 4.5vw;
+}
+.containerJogador a{
+
+}
+#botaoJogar{
+	margin: 0 auto;
+	width: 13vw;
+	height: 6vh;
+
+	background: #f99b43;
+	border-radius:  2px;
+	box-shadow: 0px 1px 1px grey;
+	transition: 0.2s;
+	color: white;
+	border: 0;
+	font-family: Lato;
+
+}
+.selecionado{
+	padding: 1213px;
+}
+#botaoJogar2{
+	margin: 0 auto;
+	width: 13vw;
+	height: 6vh;
+
+	background: #4CAF50;
+	border-radius:  2px;
+	box-shadow: 0px 1px 1px grey;
+	transition: 0.2s;
+	color: white;
+	border: 0;
+	font-family: Lato;
+
+}
+#botaoJogar input{
+	font-family: Lato;
+
+}
+#botaoJogar:hover{
+	background: #d87f2b;
+	cursor: pointer;
+}
+#botaoJogar2:hover{
+	background: #4c964f;
+	cursor: pointer;
+}
+#botaoJogar a{
+	color: white;
+}
+#listaEsportes {
+	height: 13vw;
+	width: 13vw;
+
+}
+.lista h2{
+	margin-top: 6vh;
+	margin-left: 15vh;
+
+	font-size: 36px;
+	text-align: left;
+}
+.jogador h2{
+	margin-top: 6vh;
+	margin-left: 15vh;
+
+	font-size: 36px;
+	text-align: left;
+}
+.jogador{
+
+}
+
+.esporte{
+	margin-right: 5vw;
+	float: right;
+	text-align: center;
+	height: 50vh;
+	width: 22vw;
+	padding:2%;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+	color: #9c9c9e;
+
+
+}
+.esporte td{
+	height: 6vh;
+	line-height: 6vh;
+}
+.esporte tr:not(:first-child){
+	height: 5vh;
+	border:1px solid #D1D1D1;
+}
+.esporte th{
+	font-size: 19px;
+	color: black;
+
+}
+.esporte a{
+	color: #25272D;
+}
+.esporte table{
+
+	width: 20vw;
+}
+.lista h3{
+		margin-top: 1vh;
+	margin-left: 15vh;
+	padding-bottom: 9vh;
+	font-size: 18px;
+	text-align: left;
+}
+.lista a{
+color: #212e54;
+
+}
+a{
+ text-decoration: none;
+
+}
+.timea{
+
+	width: 30vw;
+	margin: 0 auto;
+	text-align: center;
+	border-bottom: 1vh solid #F99B43;
+	border-radius: 2px 2px 12px 12px;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	margin-bottom: 5vh;
+	background: #ffe4cc;
+	box-shadow: 0px 1px 1px grey;
+}
+.espaçamento{
+	width: 15vw;
+}
+.timeb{
+	background: #cee5cf;
+	margin: 0 auto;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	width: 30vw;
+	border-radius: 2px 2px 12px 12px;
+	border-bottom: 1vh solid #4CAF50;
+	text-align: center;
+	margin-bottom: 5vh;
+box-shadow: 0px 1px 1px grey;
+
+}
+.controlePontuacaoA, .controlePontuacaoB{
+	font-size: 32px;
+
+}
+.controlePontuacaoA a, .controlePontuacaoB a{
+	color: #D87F2B;
+
+	font-size: 48px;
+
+}
+.controlePontuacaoB{
+	margin: 0;
+  position: absolute;
+  top: 60%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+}
+.controlePontuacaoA{
+	margin: 0;
+  position: absolute;
+  top: 60%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+.jogo input[type="number"]{
+	width: 30%;
+	position: relative;
+	top: 0;
+}
+.jogo h1{
+	font-size: 32px;
+}
+.jogo input[type="submit"]{
+
+
+	background: #F99B43;
+	color: #F7F9FE;
+	border: 0;
+	box-shadow: 1px 1px 3px grey;
+	border-radius: 2px;
+	transition: 0.2s;
+}
+.jogo input[type="submit"]:hover{
+	background-color:  #D87F2B;
+	cursor: pointer;
+}
+.jogo h2, .jogo input[type="number"]{
+	font-size: 28px;
+}
+.jogo{
+	display: flex;
+	text-align: center;
+	margin: 0 auto;
+	width: 80%;
+}
+
+.lista{
+
+	font-size: 16px;
+}
+.lista img{
+	box-sizing: border-box;
+	border-spacing: 0px;
+	border-radius:  1px;
+	box-shadow: 1px 1px 3px grey;
+	object-fit: cover;
+	transition: 0.2s;
+}
+.lista label:checked {
+	border: 34px solid red;
+}
+.jogador td{
+	padding: 0.3em;
+}
+a{
+	color: purple;
+}
+.formulario input{
+	padding: 1%;
+	padding-left: 6%;
+	padding-right: 6%;
+	text-align: center;
+
+}
+.formulario input[type="submit"]{
+
+		background: #EF9946;
+		color: #F7F9FE;
+		border: 0;
+		border-radius: 3px;
+	  box-shadow: 1px 1px 3px grey;
+}
+.formulario input[type="submit"]:hover{
+	cursor: pointer;
+	background: #d87f2b;
+}
+.formulario select{
+	padding: 1%;
+}
+
+.hometopo{
+
+	margin: 0 auto;
+	text-align: center;
+	height: 100vh;
+	background: linear-gradient(
+                     rgba(0,0,0, .5),
+                     rgba(0,0,0, .5)),
+                     url( "fundo.jpg");
+);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.hometopo h1{
+
+	padding-top: 20vh;
+	font-family: Lato;
+	font-weight: lighter;
+	color: white;
+	font-size: 64px;
+}
+.hometopo p{
+
+
+	font-family: Lato;
+	font-weight: lighter;
+	color: white;
+	font-size: 18px;
+}
+#botaoInicio {
+	border-radius: 18px;
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+	padding-left:  3vw;
+		padding-right:  3vw;
+	background: none;
+	font-family: Lato;
+	font-weight: lighter;
+	color: white;
+	font-size: 18px;
+	text-decoration: none;
+	transition: 0.5s;
+	border: 1px solid white;
+}
+#botaoInicio:hover{
+
+	color:  #EF9949;
+	border: 1px solid  #EF9949;
+}
+#botaoMenu {
+	float: right;
+	position: fixed;
+	top: 0;
+	right: 0;
+	padding-top: 1.4%;
+	padding-right: .7%;
+	z-index: 19123123121299;
+
+}
+
+.menuInicio {
+
+	z-index: 312;
+	position: absolute;
+
+	text-align: right;
+
+	padding: 1%;
+	margin: 0 auto;
+
+	left: 0;
+	right: 0;
+
+
+
+
+}
+.menuInicio a{
+
+	text-align: center;
+	padding-left:  1vw;
+	padding-right: 1vw;
+	letter-spacing: 1px;
+	font-family: Lato;
+		font-weight: lighter;
+	color: white;
+	font-size: 16px;
+	transition: 0.2s;
+}
+
+#botaoHome {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding-top: .7%;
+	padding-left: .7%;
+	display: none;
+	z-index: 19123123121299;
+	padding-right: 0;
+}
+
+
+.menuInicio a:hover{
+	color: #EF9949	;
+}
+.corpoInicio{
+
+}
+.primeiroItemInicio{
+	margin-left: 25%;
+	width: 40%;
+	display: flex;
+	padding: 3%;
+
+}
+.primeiroItemInicio h1{
+	font-size: 42px;
+position: relative;
+right: 2.5vw;
+	font-family:  Lato;
+
+}
+.primeiroItemInicio p{
+	font-size: 16;
+	font-family: Lato;
+	font-weight: lighter;
+	display: table-cell;
+	    vertical-align: middle;
+	width: 80%;
+	position: relative;
+	right: 2.5vw;
+}
+.primeiroItemInicio img{
+	margin: 0 auto;
+	z-index: -12;
+	width: 21vw;
+	text-align: center;
+	padding: 0;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.primeiroItemInicioBox{
+	padding: 6%;
+	padding-left: 12%;
+	margin: 0 auto;
+	width:70%;
+	background: rgba(38,43,47,.9);
+	height: 80%;
+	position: relative;
+	flex: 1;
+	color: white;
+	right: -3vw;
+
+	margin-top: 25%;
+	margin-bottom: 15%;
+
+}
+.primeiroItemInicio a{
+	font-size: 16px;
+position: relative;
+right: 2.5vw;
+	font-family:  Lato;
+
+	color: #EF9949
+}
+#seta{
+	margin: 0;
+	width:18px;
+}
+
+
+
+
+.formularioLogin{
+	display: none; /* Hidden by default */
+ position: fixed; /* Stay in place */
+ z-index: 121312321; /* Sit on top */
+ left: 0;
+ top: 0;
+ width: 100%; /* Full width */
+ height: 120%; /* Full height */
+ overflow: auto; /* Enable scroll if needed */
+ background-color: rgb(0,0,0); /* Fallback color */
+ background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+ padding-top: 10px;
+ font-family: Lato;
+
+
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: 12vh auto; /* 15% from the top and centered */
+  border: 1px solid #888;
+  width: 17.5%; /* Could be more or less, depending on screen size */
+	border-radius: 10px;
+	height: 60vh;
+	box-shadow: 1px 1px 6px #101011;
+
+}
+.modal-content h1{
+	font-size: 32px;
+}
+.modal-content h2{
+	font-size: 14px;
+}
+.modal-content p{
+	font-size: 20px;
+	color: #4A4A4A;
+
+}
+.formularioLogin h3{
+	font-size: 16px;
+	color: #969696;
+	font-weight: bolder;
+	letter-spacing: 1px;
+
+}
+.formularioLogin button{
+	width: 90%;
+	padding: 4%;
+	background-color: #F3754F;
+	color: white;
+	border: none;
+	font-family: lato;
+	font-size: 16px;
+	border-radius: 8px;
+	font-weight: lighter;
+	letter-spacing: 1px;
+
+}
+
+.formularioLogin button:hover{
+	cursor: pointer;
+}
+
+.formulario input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.formularioLogin input{
+
+
+	border: 1px solid #969696;
+	border-radius: 0px;
+	width: 90%;
+
+	text-align: left;
+	font-size: 16px;
+  font-family: Lato;
+	font-weight: lighter;
+  padding-top: 5%;
+  padding-bottom: 5%;
+	border-radius: 3px;
+}
+/* Close button on hover */
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.perfilBox{
+
+	margin: 0 auto;
+	margin-top: 5vh;
+	width: 70%;
+	min-height: 85vw;
+
+	background: #939393	;
+	margin-bottom: 5vh;
+
+}
+.perfilTopo{
+	position: relative;
+	top: 0;
+	width: 100%;
+	background: #d3d3d3;
+	height: 12vw;
+	float: left;
+}
+.perfilTopo h1{
+	width: 17.5%;
+	height: 30%;
+	position: relative;
+	left: 30%;
+	top: 24%;
+	font-family: lato;
+	font-weight: bold;
+	font-size: 48px;
+	border-bottom: 2px solid #d68437;
+}
+.perfilTopo h2{
+	width: 14%;
+	height: 32%;
+	position: relative;
+	left: 30%;
+	top: 28%;
+	font-family: lato;
+
+	font-size: 18px;
+
+}
+.perfilImagemBox{
+
+	position: relative;
+	top: 0;
+	margin-left: 4%;
+	height: 80%;
+	max-width: 14vw+12px;
+	background: #2f2b26;
+	float: left;
+	border-radius: 0 0 150px 150px;
+box-shadow: 2px 2px 5px #404040;
+}
+.perfilImagem{
+
+}
+.perfilImagem img{
+	position: relative;
+	top: -8.5vw;
+	border-radius: 50%;
+	border: 13px solid #2f2b26;
+	width: 15vw;
+	height: 15vw;
+	box-shadow: 1px 1px 5px #2f2b26;
+
+}
+
+.perfilCorpo{
+
+
+}
+.perfilMenu{
+	position: relative;
+	top: -5vw;
+	max-width: 70%;
+
+	color: white;
+	margin-left: 2vw;
+	word-wrap: break-word;
+
+}
+.perfilMenu table{
+	line-height: 50%;
+}
+.perfilMenu td{
+	padding: 10px;
+	margin: 0;
+	font-size: 12px;
+}
+.perfilMenu th{
+	margin: 0;
+	padding: 0;
+	height: auto;
+	font-size: 12px;
+}
+
+.perfilMenu li:first-child{
+	font-size: 20px;
+	padding-bottom: 6px;
+	border-bottom: 2px solid #F4AF99;
+}
+.perfilMenu li:not(:first-child){
+	padding-top: 8px;
+	font-size: 14px;
+	margin-left: 1vw;
+}
+
+.perfilMenu a{
+	color: white;
+	transition: 0.4s;
+}
+.perfilMenu a:hover{
+	color: #F4AF99;
+}
+.perfilDireitaBox {
+
+	width: 71.8%;
+	margin: 0 auto;
+	float: right;
+
+}
+
+#jogar a{
+	text-align: center;
+	font-size: 36px;
+	color: #F4AF99;
+	padding: 7%;
+	border-radius: 50px;
+
+}
+.perfilDireitaBox h1{
+	color: White;
+	font-size: 36px;
+	margin-top: 4.5%;
+	margin-left: 4.5%;
+}
+.perfilHistorico li{
+	margin: 0 auto;
+	padding: 6%;
+	background: white;
+	width: 70%;
+	margin-top: 8%;
+	background: #2f2b26;
+	border-radius: 12px;
+	color: white;
+	font-size: 24px;
+	box-shadow: 2px 2px 5px #2f2b26;
+}
+.perfilHistorico li:first-child{
+	margin-top: 3%;
+}
+#lose{
+	border-right: 40px solid #FF6961;
+}
+#win{
+	border-right: 40px solid #779ECB;
+}
+.placar{
+	float: right;
+}
+.pie-chart-container{
+
+	margin: 0 auto;
+
+
+	padding: 0;
+	height: 15.23vh;
+	width: 20%;
+}
+.line-chart-container{
+	padding: 0;
+	margin: 0 auto;
+
+
+	width: 75%;
+}
+
+#line-chart{
+	background: white;
+
+}
+.checkboxJogador label:checked{
+	padding: 198237px;
+ cursor:pointer;
+}
